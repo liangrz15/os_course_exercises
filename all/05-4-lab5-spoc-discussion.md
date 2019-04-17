@@ -9,17 +9,14 @@
 
 1. 第一个用户进程创建有什么特殊的？
 
- > 用户态代码段的初始化
+ - 用户态代码段的初始化
 
 2. 系统调用的参数传递过程？
 
- > 参见：用户态函数syscall()中的汇编代码；
-
- > Ref: https://www.ibm.com/developerworks/library/l-ia/index.html
+ - 从用户态传给内核态
 
 3. getpid的返回值放在什么地方了？
 
- > 参见：用户态函数syscall()中的汇编代码；
 
 ### 14.2 进程的内存布局
 
